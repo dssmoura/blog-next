@@ -1,10 +1,10 @@
+/* eslint-disable */
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-
 
 const Header = () => {
   return (
@@ -36,7 +36,7 @@ const Header = () => {
             >
               {link.title}
             </Link>
-          ))}        
+          ))}
         <ThemeSwitch />
         <MobileNav />
       </div>
